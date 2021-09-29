@@ -1,0 +1,171 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 70%;
+        padding: 10%;
+    }
+
+    .sidebar{
+        width: -webkit-fill-available;
+    }
+
+    .article{
+        width: -webkit-fill-available;
+    }
+}
+
+
+* {
+    box-sizing: border-box;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(236, 233, 233);
+    
+}
+
+.navbar-brand p {
+    margin: 0px;
+    padding-left: 40px;
+    color: #555353 !important;
+}   
+
+.navbar-brand p:hover {
+    color: #2c2b2b !important;
+}
+
+nav ul {
+    padding-right: 40px;
+}
+
+nav ul li a {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+nav ul li a:hover {
+    color: #2c2b2b !important;
+}
+
+
+/* 非Nav */
+
+hr{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    display: inline-block;
+    margin: 20px 20px 20px 0px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600px;
+    line-height: 40px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700px !important;
+    line-height: 30px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    margin-top:10px;
+}
+
+h4 {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 300px;
+    color: rgb(107, 103, 103)
+}
+
+section p{
+    font-size: 14px;
+    color: rgb(107, 103, 103)
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 30px;
+    padding: 10px 0px 30px 0px;
+    justify-content: center;
+    border-radius: 40px;
+    box-shadow: 0px 0px 9px rgb(226, 226, 226);
+
+}
+
+/* .selfie{
+    width: 60px;
+	border-radius: 50%;
+	/* border: 1px solid rgba(255,0,0,1.00); */
+} */
+
+.section {
+    word-wrap: normal;
+}
+
+span {
+    font-size: 18px;
+    font-weight: 300px;
+    line-height: 30px;
+}
+
+
+.sidebar {
+    width: 300px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.article {
+    width: 600px;
+
+}
+
+.AboutMeArticle {
+    width: 800px;
+
+}
+
+.AboutChangingCareerArticle {
+    width: 800px;
+}
+
+
+/* footer */
+
+.footer {
+    width: 900px;
+    /* height: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer img {
+    height: 38px;
+    width: 51px;
+}
+
+#ImgSection{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+}
